@@ -1,0 +1,6 @@
+CREATE KEYSPACE IF NOT EXISTS providers WITH REPLICATION = {'class' : 'SimpleStrategy', 'replication_factor' : 3};
+CREATE TABLE providers.users (
+   username text,
+   first_name text,
+   last_name text,
+   PRIMARY KEY (race_name, race_position));
