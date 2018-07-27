@@ -30,6 +30,6 @@ public class UserResource {
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)
     public User save(User user) {
-        return new User();
+        return new User("","","");
     }
 }

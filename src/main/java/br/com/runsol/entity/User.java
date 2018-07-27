@@ -1,5 +1,6 @@
 package br.com.runsol.entity;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class User {
@@ -7,6 +8,13 @@ public class User {
     private String firstName;
     private String lastName;
     private Date tsCreation;
+
+    public User(String username, String firstName, String lastName) {
+        this.username = username;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.tsCreation = Calendar.getInstance().getTime();
+    }
 
     public String getUsername() {
         return username;
