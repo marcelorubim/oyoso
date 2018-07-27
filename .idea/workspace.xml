@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="276ea2d3-1f3f-4eeb-90a4-d9a178b8b287" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/runsol/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/runsol/api/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/runsol/database/MySQLConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/runsol/database/MySQLConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/runsol/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/runsol/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/runsol/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/runsol/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/runsol/api/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/runsol/api/UserResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/runsol/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/runsol/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/runsol/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/runsol/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/runsol-api-webapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/runsol-api-webapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/runsol-api-webapp/WEB-INF/classes/br/com/runsol/api/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/runsol-api-webapp/WEB-INF/classes/br/com/runsol/api/UserResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/runsol-api-webapp/WEB-INF/classes/br/com/runsol/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/runsol-api-webapp/WEB-INF/classes/br/com/runsol/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/runsol-api-webapp/WEB-INF/classes/br/com/runsol/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/runsol-api-webapp/WEB-INF/classes/br/com/runsol/service/UserService.class" afterDir="false" />
-    </list>
+    <list default="true" id="276ea2d3-1f3f-4eeb-90a4-d9a178b8b287" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +24,7 @@
           <entry key="UsuariosServico" value="1" />
           <entry key="class" value="2" />
           <entry key="commands" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="10" />
           <entry key="xml" value="1" />
         </counts>
@@ -46,7 +33,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="11" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -54,6 +41,7 @@
         <counts>
           <entry key="commands" value="55" />
           <entry key="dummy" value="28" />
+          <entry key="gitignore" value="6" />
           <entry key="java" value="1665" />
           <entry key="xml" value="24" />
         </counts>
@@ -61,7 +49,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1665" />
-          <entry key="PLAIN_TEXT" value="83" />
+          <entry key="PLAIN_TEXT" value="89" />
           <entry key="XML" value="24" />
         </counts>
       </usages-collector>
@@ -136,14 +124,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/runsol/database/MySQLConnector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="-98">
               <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -213,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/runsol/api/UserResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/runsol/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/runsol/database/MySQLConnector.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -358,7 +356,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="mave&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532682526924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532682529746" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -397,7 +395,7 @@
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1814301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1814301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +409,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33005464" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33005464" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -553,11 +551,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/runsol/database/MySQLConnector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="-98">
           <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
