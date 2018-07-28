@@ -1,0 +1,1 @@
+docker run -p 8080:8080  -v /desenv/simple-service-webapp/target/:/opt/payara/deployments -v /desenv/simple-service-webapp/libs/:/opt/payara/libs --rm --link mysql:mysql payara/micro --deploy /opt/payara/deployments/runsol-api-webapp.war --addLibs /opt/payara/libs

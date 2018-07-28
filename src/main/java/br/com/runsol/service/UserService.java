@@ -31,4 +31,10 @@ public class UserService {
         });
 
     }
+
+    public User addUser(User user){
+        mySQLConnector.executeQueryUpdate("insert into solar.users VALUES(\"marcelorubim\",\"Marcelo\",\"Rubim\")",rs -> user,"");
+        return user;
+
+    }
 }

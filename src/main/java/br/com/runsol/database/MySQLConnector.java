@@ -45,14 +45,14 @@ public class MySQLConnector {
         }
     }
 
-    public List executeQueryUpdate(String sql,Function<ResultSet,List> f, Object... args) {
+    public Object executeQueryUpdate(String sql,Function<ResultSet,Object> f, Object... args) {
         connect();
         try {
             preparedStatement = connect.prepareStatement(sql);
-            List output = f.apply(preparedStatement.getResultSet());
+            Object output = new Boolean(preparedStatement.execute());
             close();
             return  output;
-        } catch (SQLException e) {
+        } catch (Exception e) {
             close();
             e.printStackTrace();
             return null;
