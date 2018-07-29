@@ -15,6 +15,7 @@ public class MySQLConnector {
 
     private void connect() {
         try {
+            System.out.println("Connecting to Mysql "+System.getenv("MYSQL_URL"));
             Class.forName("com.mysql.jdbc.Driver");
             connect = DriverManager
                     .getConnection(System.getenv("MYSQL_URL"),System.getenv("MYSQL_USER"),System.getenv("MYSQL_PASSWORD"));
