@@ -17,7 +17,7 @@ public class MySQLConnector {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             connect = DriverManager
-                    .getConnection("jdbc:mysql://172.17.0.2:3306/solar?useSSL=false","root","1234");
+                    .getConnection(System.getenv("MYSQL_URL"),System.getenv("MYSQL_USER"),System.getenv("MYSQL_PASSWORD"));
         } catch (ClassNotFoundException e) {
             //TODO Logger
             close();
